@@ -111,15 +111,11 @@ header {
 
 
 /* About section design */
-main{
-    display: flex;
-    justify-content: center;
-}
+
 .about_section{
     width: 1140px;
     text-align: center;
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin: 130px auto;
     padding: 130px 150px;
     background-color: #FFF8F3;
     border-radius: 10px;
@@ -154,4 +150,19 @@ main{
 .about_text{
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* card section */
+.card_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_section >div{
+    width: 267px;
+
+}
+.card_section >div img{
+    width: 45px;
+
 }
