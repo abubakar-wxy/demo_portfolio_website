@@ -153,6 +153,10 @@ header {
 }
 
 /* card section */
+.what_ido_section{
+    width: 1280px;
+    margin: 0px auto;
+}
 .card_section{
     display: flex;
     align-items: center;
