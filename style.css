@@ -152,21 +152,113 @@ header {
     margin-bottom: 30px;
 }
 
-/* card section */
+/* ========================= */
+/* What i Do - card section */
 .what_ido_section{
     width: 1280px;
     margin: 0px auto;
+}
+.what_ido_section >h3{
+    text-align: center;
+}
+.what_ido_section >p{
+    text-align: center;
+    width: 909px;
+    color: #757575;
+    font-size: 18px;
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
 }
 .card_section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    column-gap: 30px;
 }
 .card_section >div{
-    width: 267px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 30px 33px;
+    height: 250px;
 
 }
 .card_section >div img{
     width: 45px;
-
 }
+.card_section >div h4{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card_section >div p{
+    color: #757575;
+    font-size: 16px;
+}
+/* ========================= */
+
+
+/* summary of my cv */
+
+.resume_section{
+    width: 1280px;
+    margin: 130px auto;
+}
+.resume_section >h1{
+    text-align: center;
+}
+.edu_exp_parent{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 113px;
+}
+.edu_exp_parent >div{
+    width: 100%;
+}
+.education >h2, .experience >h2{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.education >div h3, .experience >div h3{
+    color: #474747;
+    font-size: 25px;
+}
+.education >div h4, .experience >div h4{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.education >div p, .experience >div p{
+    font-size: 16px;
+    color: #757575;
+    width: 511px;
+}
+.education >hr, .experience >hr{
+    margin: 30px 0px;
+    color: #757575;
+}
+
+.cv_btn_parent{
+    text-align: center;
+}
+.cv_btn{
+    background-color: #FD6E0A;
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+}
+/* ========================= */
