@@ -121,11 +121,9 @@ header {
     border-radius: 10px;
 }
 .about_raper{
-    border: 1px solid #757575;
+    border: 1px solid rgba(0, 0, 0, 0.226);
     border-radius: 5px;
     padding: 35px 20px;
-    /* box-shadow: 0px 9px 30px rgba(255, 149, 5, 0.3); */
-    /* box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset; */
     box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
 
 }
@@ -250,7 +248,7 @@ header {
 .cv_btn_parent{
     text-align: center;
 }
-.cv_btn{
+.cv_btn, .submit_btn{
     background-color: #FD6E0A;
     padding: 12px 24px;
     color: white;
@@ -261,4 +259,69 @@ header {
     margin-top: 50px;
     cursor: pointer;
 }
+/* ========================= */
+
+
+
+/* Footer section */
+
+.footer_section{
+    background-color: #FFF8F3;
+}
+.fcontent_parent{
+    width: 1280px;
+    margin: 130px auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    column-gap: 30px;
+    padding: 130px 0px;
+}
+.fcontent_side{
+    width: 100%;
+}
+.fcontent_side >h2, .f_form_part >h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.fcontent_side >p{
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+    width: 562px;
+}
+.fcontent_side >div img{
+    width: 24px;
+    margin-right: 24px;
+}
+
+
+.f_form_part{
+    width: 100%;
+}
+.f_form_part >input{
+    width: 461px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 18px 30px;
+    border: none;
+    background-color: white;
+    margin-bottom: 24px;
+}
+.f_form_part >textarea{
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 18px 30px;
+    border: none;
+    background-color: white;
+    margin-bottom: 24px;
+}
+.f_form_part >div button{
+    margin-top: 0px;
+}
+
 /* ========================= */
